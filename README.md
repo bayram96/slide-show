@@ -1,5 +1,5 @@
 # slide-show
-link for project http://pr.slideshowappp/.
+link for project https://bayram96.github.io/slide-show/
 Automatic slideshow for images.
 
 It has 3 buttons. "prev", "play/pause", "next"
