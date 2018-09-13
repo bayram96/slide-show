@@ -1,0 +1,39 @@
+body {
+    font-family: Times New Roman, Helvetica, sans-serif;
+    width: 680px;
+    height: 650px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid #3ECABC;
+	 background-image: url("background.jpg");
+}
+h1, h2, ul, p {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	padding-bottom: .25em;
+	color: #3ECABC;
+}
+h2 {
+	font-size: 120%;
+	padding: .5em 0;
+	color: #37BEEF;
+}
+img {
+	height: 450px;
+
+}
+#slides img {
+	display: none;
+}
+#buttons {
+	margin-top: 7em;
+	text-align: center;
+	border-radius: 12px;
+}
+
+#button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}

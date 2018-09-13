@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Slide Show</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="slide_show.js"></script>
+</head>
+
+<body>
+<section>
+    <h1>Top Entrepreneurs Slide Show</h1>
+    <h2 id="caption">Founder of Facebook: Mark Zuckerburg</h2>
+    <img id="slide" src="images/casting1.jpg" alt="">
+    <div id="slides"> 
+        <img src="images/casting1.jpg" alt="Founder of Facebook: Mark Zuckerburg">
+        <img src="images/casting2.jpg" alt="Founder of Microsoft: Bill Gates">
+        <img src="images/catchrelease.jpg" alt="Founder of Amazon: Jeff Bezos">
+        <img src="images/fish.jpg" alt="Founder of Apple: Steve Jobs">
+		<img src="images/images.jpg" alt="Founder of Tesla, SpaceX, SolarCity: Elon Musk">
+		<img src="images/lures1.jpg" alt="Founder of LinkedIn: Reid Houfman">
+		<img src="images/lures2.jpg" alt="Founder of Broadcast.com: Mark Cuban">
+		<img src="images/lures3.jpg" alt="Founder of Instagram: Kevin Systrom">
+		 <img src="images/lures.jpg" alt="Founder of Alibaba: Jack Ma">
+		<img src="images/lures4.jpg" alt="Founder of Uber: Travis Kalanich">
+       
+    </div>
+    <div id="buttons">
+    	<input type="button" id="prev" value="Previous" onclick="runSlideShow2()" disabled ="true">
+    	<input type="button" id="play" value="Pause" onclick="stop()">
+    	<input type="button" id="next" value="Next" onclick="runSlideShow1()" disabled ="true">     	
+    </div>
+</section>
+</body>
+</html>
